@@ -31,8 +31,8 @@ export const Booklist = () => {
       })
   }, [])
   function handleLogout(){
-    navigate("/");
     localStorage.clear();
+    navigate("/", { replace: true });
   }
   return (
     <div className='main-container'>

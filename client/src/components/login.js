@@ -45,7 +45,6 @@ export const Login = () => {
     <div className='login-body-conatiner'>
       <div className='login-container'>
         <form className='login-form'>
-        <pre>{JSON.stringify(userData)}</pre>
           <div>
             <h2>Member Login</h2>
           </div>
